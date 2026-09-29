@@ -36,4 +36,9 @@ if (answer5.toLowerCase() =="a"){
 }
 
 
-alert("Your final score is: " + score + " / 5");
+if (score == 5) {
+    alert("نتيجتك 5/5\nممتاز الأمور بالسليم ");
+}
+else {
+    alert(" نتيجتك " + score + "/5\n هيصير بينا خلاف ترا");
+}
